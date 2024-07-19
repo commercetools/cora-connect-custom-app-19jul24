@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useQuery, useMutation } from '@apollo/client/react';
 import { GRAPHQL_TARGETS } from '@commercetools-frontend/constants';
-import fetchShoppingLists from './queries.graphql';
-import createShoppingList from './create.graphql';
+import fetchShoppingLists from './fetchShoppingLists.graphql';
+import createShoppingList from './createShoppingList.graphql';
 import DataTableManager from '@commercetools-uikit/data-table-manager';
 import DataTable from '@commercetools-uikit/data-table';
 import { useFormik } from 'formik';
