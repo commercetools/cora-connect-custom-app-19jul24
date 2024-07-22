@@ -1,5 +1,5 @@
 deployAs:
-  - name: cora-connect-application-19jul24
+  - name: cora-custom-application-19jul
     applicationType: merchant-center-custom-application
     configuration:
       standardConfiguration:
@@ -11,4 +11,3 @@ deployAs:
           default: "gcp-eu"
         - key: ENTRY_POINT_URI_PATH
           description: The Application entry point URI path identified during registration of Custom Application
-          default: "cora-custom-app-19jul"
